@@ -1,7 +1,21 @@
 ---
 layout: default
+published: true
 ---
-
+	
+<div id="this_site_links">
+  <div class="left_link main_link">
+    Main
+    <a href="/"></a>
+  </div>
+  <div class="left_link blog_link current">
+    Blog
+  </div>
+  <div class="left_link robot_link">
+    Robots
+    <a href="/robots"></a>
+  </div>
+</div>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
