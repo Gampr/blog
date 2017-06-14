@@ -19,7 +19,7 @@ html {
 
 body {
   background: $white;
-  font: $helvetica;
+  font: 20px $helvetica;
   color: #444;
 }
 
@@ -287,6 +287,7 @@ footer {
 	position: fixed;
 	top: 30%;
 	left: 0px;
+    font: 30px $helvetica;
 }
 
 .main_link {
