@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #444;
   font-weight: bold;
 
   line-height: 1.7;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   a {
     color: inherit;
   }
@@ -319,14 +319,14 @@ footer {
 }
 
 .left_link a {
-  /* http://stackoverflow.com/questions/796087/make-a-div-into-a-link */
+  // /* http://stackoverflow.com/questions/796087/make-a-div-into-a-link */
   position:absolute; 
   width:100%;
   height:100%;
   top:0;
   left: 0;
   z-index: 1;
-  background-image: url('/empty.gif');
+  // background-image: url('/empty.gif');
   
   &:hover {
   	color: #000;
