@@ -1,5 +1,7 @@
 ---
-published: false
+published: true
+layout: post
+title: Введение
 ---
 ## О себе
 В последнее время активно пишу на Python да разбираюсь с кодом на C. Нравится математика
